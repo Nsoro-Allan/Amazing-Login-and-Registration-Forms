@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6),rgba(12, 12, 12, 0.6)),url(./imgs/1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    background: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.header h1{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.header p{
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.header .line{
+    background: lightslategray;
+    padding: 0.7px;
+    width: 15%;
+    margin-top: 15px;
+}
+
+.content{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1.4px solid lightsteelblue;
+    outline-color: rgba(86, 166, 86, 0.838);
+}
+
+.content .agreement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content .agreement p{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.content .agreement p a{
+    color: rgba(86, 166, 86, 0.838);
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+}
+
+.content .agreement p a:hover{
+    text-decoration: underline;
+    transition: all ease-in-out 0.5s;
+}
+
+.content button{
+    margin-top: 10px;
+    border: none;
+    background: rgba(86, 166, 86, 0.838);
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    transition: all ease-in-out 0.5s;
+}
+
+.content button:hover{
+    background: rgba(64, 128, 64, 0.838);
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.footer p a{
+    color: rgba(86, 166, 86, 0.838);
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+}
+
+.footer p a:hover{
+    text-decoration: underline;
+    transition: all ease-in-out 0.5s;
+}
+
+
+
